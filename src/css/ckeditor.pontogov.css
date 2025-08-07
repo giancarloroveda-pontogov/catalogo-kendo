@@ -1,0 +1,49 @@
+.cke{
+  z-index: 1000000 !important;
+}
+
+.cke_editable{
+  border-style: solid !important;
+  border-width: 2px !important;
+  border-color: #139ff7 !important;
+}
+
+.cke_dialog {
+  z-index: 1000000 !important;
+}
+
+.cke_dialog_body {
+  z-index: 1000001 !important;
+  border-style: solid !important;
+  border-color: #CCCCCC !important;
+  border-width: 1px !important;
+}
+
+.cke_dialog_background_cover{
+  z-index: 1000000 !important;
+  background-color: #FFFFFF !important;
+}
+
+.cke_panel {
+  z-index: 1000000 !important;
+}
+
+a.cke_dialog_ui_button_ok {
+  color: #484848 !important;
+  border: 1px solid #bcbcbc !important;
+  background: #f8f8f8 !important;
+}
+
+a.cke_dialog_ui_button_ok:hover {
+  background: #fff !important;
+  border-color: #bcbcbc !important;
+}
+
+.cke_chrome {
+  border: 0px solid #d1d1d1 !important;
+  padding: 0 !important;
+}
+
+#cke_bottom_detail,.cke_bottom{
+  display:none !important;
+}

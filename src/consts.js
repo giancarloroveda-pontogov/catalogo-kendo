@@ -1,0 +1,1 @@
+export const PRODUTOS_STORAGE_KEY = "app.catalogo.produtos.v1";

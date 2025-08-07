@@ -1,0 +1,197 @@
+.frontbox-back {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    display: none;
+    z-index: 25000;
+}
+.frontbox-main {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    width: auto;
+    max-width: 600px;
+    min-width: 300px;
+    padding: 5px;
+    position: relative;
+    margin: 10% auto 0;
+    /*background-color: #e0ecff;*/
+    border: solid 0 rgb(90,90,90);
+    border-left-width: 5px;
+    overflow: auto;
+    display: none;
+    direction: ltr;
+}
+.frontbox-close {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 18px;
+    height: 19px;
+    padding-left: 1px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    transition: 400ms;
+    background-color: rgb(240,240,240);
+}
+.frontbox-close:hover {
+    background-color: rgba(192,57,43,0.7);
+}
+.frontbox-close:active {
+    background-color: rgba(0,0,0,0.7);
+}
+.frontbox-title {
+    font-family: Arial, Gadget, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+    color: rgb(90,90,90);
+    padding-bottom: 2px;
+    overflow: auto;
+    border-bottom: solid 1px rgb(230,230,230);
+}
+.frontbox-message {
+    color: rgb(60,60,60);
+    padding: 10px 0;
+    text-align: justify;
+}
+.frontbox-prompt {
+    padding: 5px 0;
+    display: none;
+}
+.frontbox-prompt input,select {
+    color: rgb(60,60,60);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 3%;
+    width: 93%;
+    border: solid 1px rgb(210,210,210);
+}
+.frontbox-button-bar {
+    margin-top: 5px;
+    text-align: center;
+    direction: ltr;
+}
+.frontbox-btn {
+    display: inline-block;
+    border: solid 1px rgb(230,230,230);
+    color: rgb(60,60,60);
+    width: 70px;
+    padding: 5px;
+    margin: 0 2px 3px;
+    background-color: rgb(250,250,250);
+    cursor: pointer;
+    transition: 300ms;
+}
+.frontbox-btn:hover {
+    /*background-color: rgb(240,240,240);*/
+}
+.frontbox-btn:active {
+    /*background-color: rgb(200,200,200);*/
+}
+
+.frontbox-info{
+  background-color: #c5dcff;
+  border-color: #5a8cd7;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.frontbox-info .frontbox-btn{
+  background-color: #a7c2eb;
+  border-color: #5a8cd7;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.frontbox-info .frontbox-close{
+  background-color: #a7c2eb;
+  border-color: #5a8cd7;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.frontbox-warning{
+  background-color: #fffdcb;
+  border-color: #dedc27;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.frontbox-warning .frontbox-btn{
+  background-color: #eee39d;
+  border-color: #dedc27;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.frontbox-warning .frontbox-close{
+  background-color: #eee39d;
+  border-color: #dedc27;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.frontbox-error{
+  background-color: #fccccc;
+  border-color: #fe0012;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.frontbox-error .frontbox-btn{
+  background-color: #e9979d;
+  border-color: #fe0012;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.frontbox-error .frontbox-close{
+  background-color: #e9979d;
+  border-color: #fe0012;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.frontbox-succes{
+  background-color: #bef2c9;
+  border-color: #0dbc36;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.frontbox-succes .frontbox-btn{
+  background-color: #7ed092;
+  border-color: #0dbc36;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.frontbox-succes .frontbox-close{
+  background-color: #7ed092;
+  border-color: #0dbc36;
+  border-width: 1px;
+  border-radius: 4px;
+}
+.underline{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.frontbox-btn:focus-visible{
+  border-width: 2px !important;
+  border-color: #5a8cd7 !important;
+}
+
+.frontbox-btn:focus{
+  border-width: 2px !important;
+}

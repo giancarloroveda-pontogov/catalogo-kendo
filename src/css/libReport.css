@@ -1,0 +1,145 @@
+/****************************************************************************************************************************/
+/*Estilos para Fontes*/
+/****************************************************************************************************************************/
+
+.fntArial12{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+
+.fntArial10{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
+
+.fntArial08{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 08pt;
+}
+
+.fntArial07{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 07pt;
+}
+
+.fntArial06{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 06pt;
+}
+
+/*Fonte Negrito*/
+.fntBold{
+  font-weight:bold;
+}
+
+/*Fonte em Uppercase*/
+.fntUpper{
+  text-transform: uppercase;
+}
+
+/*Alinhamento Justificado*/
+.fntJustify{
+  text-align: justify;
+}
+
+/*Alinhamento a Direita*/
+.fntRight{
+  text-align: right;
+}
+
+/*Fonte cor Cinza*/
+.fntSilver{
+  color: gray;
+}
+
+/****************************************************************************************************************************/
+/*Estilos para Bordas*/
+/****************************************************************************************************************************/
+
+/*Borda preta todos os lados*/
+.brdBox{
+  border-style:solid;
+  border-width: 1px;
+  border-color:#000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Borda Dupla Baixo*/
+.brdDuplaBaixo{
+  border-bottom-style: double;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+}
+
+/*Borda Dupla Cima*/
+.brdDuplaCima{
+  border-top-style: double ;
+  border-top-color: black;
+  border-top-width: 1px;
+}
+
+/****************************************************************************************************************************/
+/*Estilos para Plano de Fundo*/
+/****************************************************************************************************************************/
+.bgrCinzaClaro{
+  background-color: #E5E5E5;
+}
+
+/****************************************************************************************************************************/
+/*Estilos para Alinhamento*/
+/****************************************************************************************************************************/
+.algCenter{
+  text-align: center;
+}
+
+.algRight{
+  text-align: right;
+}
+
+.algMiddle{
+  vertical-align: middle;
+}
+
+.algTop{
+  vertical-align: top;
+}
+
+.algJustify{
+  text-align: justify;
+}
+
+/****************************************************************************************************************************/
+/*Outros Estilos*/
+/****************************************************************************************************************************/
+
+.padBotton10{
+  padding-bottom: 10px;
+}
+
+.padTop10{
+  padding-top: 10px;
+}
+
+.orgBox{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 08pt;
+  text-align:center;
+  width:140px;
+  max-width:140px;
+	max-height: 60px;
+	vertical-align:middle;
+  border-style:solid;
+  border-width: 1px;
+  border-color:#000000;
+}
+
+.orgNone{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 08pt;
+  text-align:center;
+  width:135px;
+	height:60px;
+	max-width:140px;
+	max-height:60px;
+	vertical-align:middle;
+}

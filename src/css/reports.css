@@ -1,0 +1,52 @@
+body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  padding: 50px;
+  min-height: 900px;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(173,173,173,1);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(173,173,173,1);
+  box-shadow: 0px 0px 10px 3px rgba(173,173,173,1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+
+p{
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+table{
+  width: 100%;
+  margin-top: -1px;
+}
+
+li{
+  margin: 0;
+  padding: 0;
+  font-size: 10pt;
+}
+
+td{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
+
+.pgEditorIndent{
+  text-indent:50px;
+}
+
+.pgEditorNotFormated{
+  text-indent: unset;
+}
+
+.pgEditorBox{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  padding: 2px;
+  margin-top: -1px;
+}
+
+

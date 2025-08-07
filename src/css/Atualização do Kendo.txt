@@ -1,0 +1,17 @@
+//***********************************************************************************************************************//
+//Roteiro de Atualização do Kendo UI - Estilos CSS //
+//***********************************************************************************************************************//
+
+-> Organização do kendo.blueopal.min.css
+  Abrir a página no Mozzila e carregar o arquivo de css de forma estruturada.
+  
+-> Alterações de Cores:
+  #bbdceb -> #5a8cd7
+  #a3d0e4 -> #5a8cd7
+  #7bd2f6 -> #cfdeff
+  #157299 -> #95b4f1
+  #0d6a92 -> #87aaf0
+  #13688c -> #87aaf0
+  #0e4a64 -> #5a8cd7
+  #bdbdbd -> #5a8cd7
+  #8bc4dd -> #5a8cd7
